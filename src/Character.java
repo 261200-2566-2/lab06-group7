@@ -93,30 +93,56 @@ public interface Character {
     void setBuffMana(double mana);
 
     /**
-     * update stats value depends on current level of character
+     * update stats value depends on current level of character(base of each job is different)
      * effects: all base stats calculated by considering level
      * effects: currentMana will be assigned equal to maxMana
      */
     void updateStatus();
 
     /**
-     * use to equip or unequip boots
-     * effects:
+     * use to set truth value of character equipping boots
+     * effects: update truth value of isBootEquip = boot
      */
     void setBootEquip(boolean boot);
 
     /**
-     * character equip boots
-     * @returns */
+     * gets character is wearing boots or not
+     * returns: boolean of character is wearing boots or not
+     */
     boolean getBootEquip();
+
+    /**
+     * use to set truth value of character equipping ring
+     * effects: update truth value of isRingEquip = ring
+     */
     void setRingEquip(boolean ring);
+
+    /**
+     * gets character is wearing ring or not
+     * returns: boolean of character is wearing ring or not
+     */
     boolean getRingEquip();
+
+    /**
+     * use to set truth value of character equipping armor
+     * effects: update truth value of isArmorEquip = armor
+     */
     void setArmorEquip(boolean armor);
+
+    /**
+     * gets character is wearing armor or not
+     * returns: boolean of character is wearing armor or not
+     */
     boolean getArmorEquip();
+
+    /**
+     * use to set consciousness of character
+     * effects: assign isUnConscious = unconscious
+     */
     void setIsUnconscious(boolean unconscious);
 
     /**
-     * check if character is unconscious or not
+     * gets character is unconscious or not
      * returns: truth value of consciousness of character*/
     boolean getIsUnconscious();
 

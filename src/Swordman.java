@@ -25,6 +25,11 @@ public class Swordman implements Character{
     private boolean isArmorEquip;
     private boolean isUnconscious;
 
+    /**
+     construct Swordman job type
+     * @param name string which is the same as name used to set the Swordman variable
+     * effects: set up default stats
+     */
     public Swordman(String name){
         this.name = name;
         level = 1;

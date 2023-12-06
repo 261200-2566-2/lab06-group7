@@ -22,6 +22,11 @@ public class Tank implements Character{
     private boolean isRingEquip;
     private boolean isArmorEquip;
     private boolean isUnconscious;
+
+    /**
+     construct Tank job type
+     * @param name string which is the same as name used to set the Tank variable
+     * effects: set up default stats*/
     public Tank(String name){
         this.name = name;
         level = 1;
