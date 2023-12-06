@@ -6,6 +6,11 @@ public class armor implements accessories{
     private int currentExp;
     private int maxExp;
     private int level;
+
+    /**
+     * set default value of armor
+     * effect: modify status of armor
+     */
     public armor(){
         level = 1;
         this.spd = -30;

@@ -6,6 +6,11 @@ public class ring implements accessories{
     private int currentExp;
     private int maxExp;
     private int level;
+
+    /**
+     * set default value of ring
+     * effect: modify status of ring
+     */
     public ring(){
         level = 1;
         this.spd = 20;

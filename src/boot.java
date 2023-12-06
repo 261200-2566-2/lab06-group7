@@ -6,6 +6,11 @@ public class boot implements accessories{
     private int currentExp;
     private int maxExp;
     private int level;
+
+    /**
+     * set default value of boot
+     * effect: modify status of boot
+     */
     public boot(){
         level = 1;
         this.spd = 50;
