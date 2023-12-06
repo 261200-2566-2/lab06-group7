@@ -242,7 +242,7 @@ public interface Character {
    /**
     * character take off boots accessory
     * @param boot accessory boot type
-    * effects: "You didn't equip boots yet" printed if character didn't wear boots
+    * effects: "You didn't equip boots yet" printed if character doesn't wear boots
     * effects: cancel buff effects of boot from total stats of character
     */
     default void unEquipBoot(boot boot){
@@ -281,7 +281,7 @@ public interface Character {
     /**
      * character take off ring accessory
      * @param ring accessory ring type
-     * effects: "You didn't equip ring yet" printed if character didn't wear ring
+     * effects: "You didn't equip ring yet" printed if character doesn't wear ring
      * effects: cancel buff effects of ring from total stats of character
      */
     default void unEquipRing(ring ring){
@@ -319,7 +319,7 @@ public interface Character {
     /**
      * character take off armor accessory
      * @param armor accessory armor type
-     * effects: "You didn't equip arnor yet" printed if character didn't wear arnor
+     * effects: "You didn't equip arnor yet" printed if character doesn't wear arnor
      * effects: cancel buff effects of arnor from total stats of character
      */
     default void umEquipArmor(armor armor){
