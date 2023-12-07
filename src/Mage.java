@@ -22,6 +22,11 @@ public class Mage implements Character{
     private boolean isRingEquip;
     private boolean isArmorEquip;
     private boolean isUnconscious;
+
+    /**
+     * construct Mage job type
+     * @param name string which is the same as name used to set the Mage variable
+     * effects: set up default stats*/
     public Mage(String name){
         this.name = name;
         level = 1;
